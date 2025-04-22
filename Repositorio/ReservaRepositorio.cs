@@ -11,6 +11,7 @@ namespace Meu_Hotel.Repositorio
     {
         List<Reserva> _reservas = new List<Reserva>();
 
+
         public void Atualizar(Reserva reserva)
         {
             Reserva reservaLocalizada = BuscarPeloID(reserva.Id);
