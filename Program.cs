@@ -8,6 +8,10 @@ namespace Meu_Hotel
     {
         public static void Main(string[] args)
         {
+            //Seed seed = new Seed(); 
+            //seed.Executar();
+
+
             bool continuar = true;
 
             do
@@ -31,12 +35,12 @@ namespace Meu_Hotel
                         break;
                     case "2":
                         {
-
+                            QuartoUI.Executar();
                         }
                         break;
                     case "3":
                         {
-                        
+                           ReservaUI.Executar();
                         }
                         break;
                     case "4":
@@ -49,9 +53,9 @@ namespace Meu_Hotel
                 }
             }
             while (continuar);
-            
-            
-            
+
+
+
             // Program > Servico > Repositorio 
 
 

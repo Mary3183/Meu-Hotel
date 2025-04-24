@@ -92,7 +92,7 @@ namespace Meu_Hotel.UI
 
             Console.WriteLine("Informe os dados de endereçoo\n");
 
-
+            hospede.Endereco = new Endereco();
             Console.WriteLine("Informe a rua");
             hospede.Endereco.Rua = Console.ReadLine();
             Console.WriteLine("Informe o bairro");

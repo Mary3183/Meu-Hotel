@@ -5,12 +5,9 @@
         public Guid Id { get; set; }
         public int Camas { get; set; }
         public int Numero { get; set; }
+        public string Tipo { get; set; }
+        public bool Ocupado { get; set; }
     }
-    //public class Quarto
-
-    //public int Numero { get; set; }
-   // public string Tipo { get; set; }
-   // public bool Ocupado { get; set; }
 }
 
 

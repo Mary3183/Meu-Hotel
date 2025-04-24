@@ -27,4 +27,5 @@ namespace Meu_Hotel.Servico
             return _hospedeRepositorio.BuscarPeloNome(nome);
         }
     }
+
 }
