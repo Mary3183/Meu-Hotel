@@ -7,10 +7,8 @@ namespace Meu_Hotel
     public static class Program
     {
         public static void Main(string[] args)
-        {
-            //Seed seed = new Seed(); 
-            //seed.Executar();
 
+        {
 
             bool continuar = true;
 
@@ -40,7 +38,7 @@ namespace Meu_Hotel
                         break;
                     case "3":
                         {
-                           ReservaUI.Executar();
+                            ReservaUI.Executar();
                         }
                         break;
                     case "4":

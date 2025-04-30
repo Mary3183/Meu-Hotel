@@ -55,6 +55,11 @@ namespace Meu_Hotel.Repositorio
             EscreverArquivo();
         }
 
+        public List<Quarto> BuscarTodos()
+        {
+            return _quartos;
+        }
+
         public void Excluir(Guid id)
             
         {

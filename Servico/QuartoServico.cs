@@ -35,6 +35,11 @@ namespace Meu_Hotel.Servico
             _quartoRepositorio.Criar(quarto);
         }
 
+        public List<Quarto> BuscarTodos()
+        {
+            return _quartoRepositorio.BuscarTodos();
+        }
+
         public void Excluir(Guid id)
         {
         }

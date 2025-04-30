@@ -18,6 +18,7 @@ namespace Meu_Hotel.Servico
 
         public void Criar(Reserva entidade)
         {
+            entidade.Id = Guid.NewGuid();
             reservaRepositorio.Criar(entidade);
         }
 
